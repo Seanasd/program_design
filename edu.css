@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+#head {
+    background: rgb(166, 142, 225);
+    width: 100%;
+    height: 24px;
+}
+
+#set a {
+    float: right;
+    height: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    background: rgb(42, 210, 42);
+}
+
+#main {
+    width: 1024px;
+    margin-left: 247.5px;
+    margin-top: 10px;
+}
+
+#title {
+    height: 103px;
+}
+
+#title img {
+    float: left;
+}
+
+#title span {
+    float: left;
+    height: 103px;
+    width: 300px;
+    line-height: 103px;
+    font-size: 30px;
+}
+
+#menu {
+    position: relative;
+    background: rgb(172, 232, 32);
+    padding-left: 20px;
+}
+
+#menu #opt {
+    background-color: blue;
+}
+
+#menu a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#hiddiv {
+    position: absolute;
+    background: red;
+    left: 0px;
+    width: 100px;
+    text-align: left;
+}
+
+#main #menu #hiddiv a {
+    margin-left: 0px;
+    color: black;
+    text-align: left;
+}
+
+#img {
+    height: 399px;
+}
+
+#box {
+    height: 500px;
+}
+
+#box span {
+    float: left;
+    width: 33.33%;
+    height: 330px;
+}
+
+#box #blue {
+    background: blue;
+}
+
+#box #yellow {
+    background: yellow;
+}
+
+#box #red {
+    width: 33.34%;
+    background: red;
+}
